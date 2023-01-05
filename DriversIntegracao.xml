@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Dispositivos>
+
+
+
+    <Dispositivo VolumeMinimo="1" VolumeMaximo="100" ValorVolumeFixo="50" SingleInstance="false" Nome="[ TV ] LG - HTTP" Jar="driver-test.jar" IP="" ControlaVolumeFixo="false" ControlaVolume="false" Codigo="683" ClassName="br.ind.scenario.driver.drivertest.DriverTest">
+
+
+    <Funcoes>
+
+    <Funcao Nome="Volume Up" Codigo="685" CodigoInterno="100"/>
+
+    <Funcao Nome="Feedback Volume Up" Codigo="686" CodigoInterno="1000"/>
+
+    <Funcao Nome="Volume Down" Codigo="688" CodigoInterno="200"/>
+
+    <Funcao Nome="Feedback Volume Down" Codigo="689" CodigoInterno="2000"/>
+
+    <Funcao Nome="Mute" Codigo="691" CodigoInterno="300"/>
+
+    <Funcao Nome="Feedback Mute" Codigo="692" CodigoInterno="3000"/>
+
+    <Funcao Nome="Left" Codigo="694" CodigoInterno="400"/>
+
+    <Funcao Nome="Feedback Left" Codigo="695" CodigoInterno="4000"/>
+
+    <Funcao Nome="Right" Codigo="697" CodigoInterno="500"/>
+
+    <Funcao Nome="Feedback Right" Codigo="698" CodigoInterno="5000"/>
+
+    <Funcao Nome="Up" Codigo="700" CodigoInterno="600"/>
+
+    <Funcao Nome="Feedback Up" Codigo="701" CodigoInterno="6000"/>
+
+    <Funcao Nome="Down" Codigo="703" CodigoInterno="700"/>
+
+    <Funcao Nome="Feedback Down" Codigo="704" CodigoInterno="7000"/>
+
+    <Funcao Nome="Play" Codigo="706" CodigoInterno="800"/>
+
+    <Funcao Nome="Feedback Play" Codigo="707" CodigoInterno="8000"/>
+
+    <Funcao Nome="Pause" Codigo="709" CodigoInterno="900"/>
+
+    <Funcao Nome="Feedback Pause" Codigo="710" CodigoInterno="9000"/>
+
+    <Funcao Nome="Enter" Codigo="712" CodigoInterno="1000"/>
+
+    <Funcao Nome="Feedback Enter" Codigo="713" CodigoInterno="10000"/>
+
+    <Funcao Nome="Home" Codigo="715" CodigoInterno="1100"/>
+
+    <Funcao Nome="Feedback Home" Codigo="716" CodigoInterno="11000"/>
+
+    <Funcao Nome="Youtube" Codigo="718" CodigoInterno="1200"/>
+
+    <Funcao Nome="Feedback Netflix" Codigo="719" CodigoInterno="12000"/>
+
+    <Funcao Nome="Analogico" Codigo="721" CodigoInterno="3000"/>
+
+</Funcoes>
+
+</Dispositivo>
+
+</Dispositivos>

@@ -1,0 +1,80 @@
+<Dispositivo Fabricante="Teste"
+             Tipo="Teste"
+             Modelo="Teste"
+             Versao="1"
+             Scenario="Sim"
+             UltimaAlteracao="24/11/2021 08:00:00"
+             Observacao=""
+             Icone=""
+             Testado="Nao"
+             AudioVideo="Nao"
+             VersaoXML="1.0.0"
+             Jar="driver-test.jar"
+             Class="br.ind.scenario.driver.drivertest.DriverTest"
+             SingleInstance="false"
+             ControleMultimidia="Nao"
+             ConfiguracaoSetup="Nao">
+
+    <Configuracoes>
+        <Campo Tipo="tvString" Default="" NomeExibicao="IP" NomeAtr="IP" IDComponente="1"/>
+    </Configuracoes>
+
+    <Variaveis>
+        <VariaveisInterface>
+            <VariaveisEntrada>
+                <Digital Codigo="100" Nome="Volume Up" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="1000"/>
+                <Digital Codigo="200" Nome="Volume Down" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="2000"/>
+                <Digital Codigo="300" Nome="Mute" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="3000"/>
+                <Digital Codigo="400" Nome="Left" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="4000"/>
+                <Digital Codigo="500" Nome="Right" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="5000"/>
+                <Digital Codigo="600" Nome="Up" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="6000"/>
+                <Digital Codigo="700" Nome="Down" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="7000"/>
+                <Digital Codigo="800" Nome="Play" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="8000"/>
+                <Digital Codigo="900" Nome="Pause" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="9000"/>
+                <Digital Codigo="1000" Nome="Enter" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="10000"/>
+                <Digital Codigo="1100" Nome="Home" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="11000"/>
+                <Digital Codigo="1200" Nome="Youtube" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0" Relacao="12000"/>
+            </VariaveisEntrada>
+            <VariaveisSaida>
+                <Digital Codigo="1000" Nome="Feedback Volume Up" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="2000" Nome="Feedback Volume Down" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="3000" Nome="Feedback Mute" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="4000" Nome="Feedback Left" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="5000" Nome="Feedback Right" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="6000" Nome="Feedback Up" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="7000" Nome="Feedback Down" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="8000" Nome="Feedback Play" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="9000" Nome="Feedback Pause" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="10000" Nome="Feedback Enter" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="11000" Nome="Feedback Home" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Digital Codigo="12000" Nome="Feedback Netflix" Inicializacao="0" FuncaoPadrao="" Input="Nao"
+                         TempoEsperaInput="0"/>
+                <Analogico Codigo="3000" Nome="Analogico" Inicializacao="0" FuncaoPadrao="" Input="Nao" TempoEsperaInput="0"/>
+            </VariaveisSaida>
+        </VariaveisInterface>
+    </Variaveis>
+
+</Dispositivo>
